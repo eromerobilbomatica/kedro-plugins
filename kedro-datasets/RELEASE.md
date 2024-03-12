@@ -4,7 +4,9 @@
 * Extend preview feature for matplotlib, plotly and tracking datasets.
 
 ## Bug fixes and other changes
-* Removed Windows specific conditions in `pandas.HDFDataset` extra dependencies
+* Removed Windows specific conditions in `pandas.HDFDataset` extra dependencies.
+* Fixed bug when loading datasets. Now let to pass the parameters to choice dataset name.
+  
 ## Community contributions
 Many thanks to the following Kedroids for contributing PRs to this release:
 * [Samuel Lee SJ](https://github.com/samuel-lee-sj)
